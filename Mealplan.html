@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Random meal generator</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'><link rel="stylesheet" href="./css.css">
+</head>
+<body>
+  <div class="grid">
+    <div class="navbar">
+        <nav>
+          <a href="Home.html">Home</a>
+          <a href="Recipes.html">Recipes</a>
+          <a href="Mealplan.html">Meal Generator</a>
+          <a href="Articles.html">Articles</a>
+        </nav>
+        <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+        <div class="brand">Jack Eats</div>
+    </div>
+
+<div class="content">
+<div class="container">
+	<div class="row text-center">
+		<h3>
+			Feeling hungry?
+		</h3>
+		<h5>Get a random meal by clicking below</h5>
+		<button class="button-primary" id="get_meal"> Get Random Meal </button>
+
+	</div>
+	<div id="meal" class="row meal"></div>
+</div>
+
+<div class="footer">
+  <div class="footernavbar">
+   <a href="#home" class="active">Home</a>
+   <a href="#news">News</a>
+   <a href="#contact">Contact</a>
+</div>
+</div>
+
+<!-- partial -->
+  <script  src="./mealplanscript.js"></script>
+
+</body>
+</html>
