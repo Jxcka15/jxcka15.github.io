@@ -23,6 +23,7 @@ const createMeal = (meal) => {
 		}
 	}
 
+	//displaying the information on the page
 	const newInnerHTML = `
 		<div class="row">
 			<div class="columns five">
